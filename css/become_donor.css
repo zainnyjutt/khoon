@@ -1,0 +1,66 @@
+/* Your existing CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.containerd {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.h2d {
+    color: #680101;
+    text-align: center;
+}
+
+.form-groupd {
+    margin-bottom: 20px;
+}
+
+.form-groupd label {
+    display: block;
+    font-weight: bold;
+    color: #680101;
+    margin-bottom: 5px;
+}
+
+.form-groupd input[type="text"],
+.form-groupd input[type="email"],
+.form-groupd input[type="date"],
+.form-groupd select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+    margin-bottom: 5px;
+}
+
+.form-groupd input[type="text"]:focus,
+.form-groupd input[type="email"]:focus,
+.form-groupd input[type="date"]:focus,
+.form-groupd select:focus {
+    border-color: #680101;
+    outline: none;
+}
+
+.btnd {
+    background-color: #680101;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btnd:hover {
+    background-color: #cc0000;
+}

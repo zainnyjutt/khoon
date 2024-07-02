@@ -1,0 +1,33 @@
+/* faqs.css */
+.faq-container {
+    background-color: #FFF; /* White background */
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    padding: 20px;
+    margin-left: 7%;
+    /* margin: 0 170px; Add margins on both sides */
+}
+
+.faq-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.faq-question {
+    cursor: pointer;
+    font-weight: bold;
+    color: #680101; /* Dark red text color */
+    /* text-align: center; Center text */
+    
+}
+
+.faq-answer {
+    display: none;
+    padding-left: 20px;
+    color: black; /* Dark red text color */
+    
+}
+
+.faq-answer.show {
+    display: block;
+}

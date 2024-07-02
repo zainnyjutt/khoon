@@ -1,0 +1,5 @@
+<?php
+$bp="//localhost/khoon/";
+
+
+?>

@@ -1,0 +1,85 @@
+/* index.css */
+.carousel-item .sbutton {
+    border: none;
+    transition: transform 0.4s, 0.5s ease-out;
+    background: linear-gradient(to left,#cc0000 50%,  #680101 50%) right;
+    background-size: 250%;
+    /* transition: ; */
+}
+.carousel-item .sbutton:hover {
+    /* transform: scale(1.1); */
+    background-position: left;
+}
+.container{
+    padding-top: 1%;
+  
+}
+.col-md-4 .btn{
+    border: none;
+    transition:  0.3s ease-out;
+    background: linear-gradient(to left, #cc0000 50%, #680101 50%) right;
+    background-size: 250%;
+}
+
+.col-md-4 .btn:hover{
+    /* transform: scale(1.1); */
+    background-position: left;
+}
+.display-4{
+    text-align: center;
+    padding-top: 150px;
+}
+.col-md-6 .btn{
+    border: none;
+    transition:  0.4s ease-out;
+    background: linear-gradient(to left, #cc0000 50%,#680101  50%) right;
+    background-size: 250%;
+}
+.col-md-6 .btn:hover{
+    background-position: left;
+}
+.row{
+    padding-top: 50px;
+    width: 100%;
+}
+.row .btn{
+    border: none;
+    transition:  0.4s ease-out;
+    background: linear-gradient(to left, #cc0000 50%, #680101 50%) right;
+    background-size: 250%;
+}
+
+.row .btn:hover{
+    /* transform: scale(1.1); */
+    background-position: left;
+}
+/* Styles for carousel cards */
+.carousel-card {
+    border: 1px solid #ddd; /* Add a border */
+    border-radius: 10px; /* Rounded corners */
+    transition: box-shadow 0.3s ease; /* Smooth transition for box-shadow */
+  }
+  
+  .carousel-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+  }
+  
+  .carousel-card-title {
+    font-size: 18px; /* Larger font size for card title */
+    font-weight: bold; /* Bold font weight */
+    margin-bottom: 10px; /* Add space below title */
+  }
+  
+  .carousel-card-text {
+    font-size: 14px; /* Smaller font size for card text */
+  }
+  
+  .carousel-col {
+    margin-bottom: 20px; /* Add space between cards */
+  }
+  
+  /* Adjust carousel height */
+  .carousel-item {
+    min-height: 400px; /* Set minimum height for carousel items */
+  }
+  
